@@ -158,6 +158,16 @@ padding: 20px;
     
 }
 
+.img-gal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    margin: 30px;
+    padding: 50px;
+}
+
 .tatuajes-destacados {
 height: 450px;
 }
@@ -169,7 +179,7 @@ height: 450px;
     color: #E0E1DD;
     border-color: #0D1B2A;
     background-color:#415A77;
-    box-shadow: 2px 1px 2px 1px #0D1B2A;
+    /* box-shadow: 2px 1px 2px 1px #0D1B2A; */
 }
 .btn-primary {
     margin: 40px;
