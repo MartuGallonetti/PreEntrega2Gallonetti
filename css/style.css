@@ -49,6 +49,14 @@
     color: #415A77;
 }
 
+.titulo-gal {
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    color: #415A77;
+}
+
 
 .main{
     background-color:#415A77;
@@ -67,6 +75,17 @@ padding: 20px;
 }
 
 .txt-ilus {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.txt-preg {
+    font-size: 17px;
+    padding: 20px;
+}
+
+.txt-gal {
     text-align: center;
     font-size: 17px;
     padding: 20px;
@@ -130,7 +149,6 @@ padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    /* justify-content: space-between; */
 }
 
 .principales-img {
@@ -174,6 +192,5 @@ height: 450px;
 
 .tabla-preg {
     background-color: #E0E1DD;
-    /* margin: 20px; */
     padding: 40px;
 }
