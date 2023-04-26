@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Colores:
+#E0E1DD
+#778DA9
+#415A77
+#1B263B
+#0D1B2A */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Estilos */
+.fondo-main {
+    background-color: #E0E1DD;
+}
+.fondo-ilus {
+    background-color: #E0E1DD;
+}
+
+/* General */
+.header {
+
+    font-family:'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 40px;
+    font-family:'Montserrat', sans-serif;
+    color: #415A77;
+}
+.titulo-ilus {
+    text-align: center;
+    padding: 40px;
+    font-family:'Montserrat', sans-serif;
+    color: #415A77;
+}
+
+.titulo-preg {
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    color: #415A77;
+}
+
+
+.main{
+    background-color:#415A77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+} 
+
+/* texto  */
+.introduccion {
+text-align: center;
+margin-bottom: 5rem;
+font-size: 17px;
+padding: 20px;
+}
+
+.txt-ilus {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+}
+
+
+/* Nav */
+.nav-link {
+    font-size: 20px;
+    color: #415A77;
+
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.navbar-brand {
+    margin: 5px;
+    padding: 20px;
+
+}
+
+
+.footer {
+    background-color: #0D1B2A;
+    /* margin: 10px; */
+    padding: 5px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    }
+
+.link-footer {
+    list-style: none;
+    color: #E0E1DD;
+}
+
+
+.section {
+    margin: 10px;
+    padding: 5px;
+}
+.section article {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-size: 5px;
+}
+.lista-no-ordenada  {
+    list-style: none;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    color: #E0E1DD;
+}
+
+
+/* Imagenes*/ 
+.imagenes-destacadas {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+
+.principales-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.tatuajes-destacados {
+height: 450px;
+}
+
+
+
+.boton {
+    margin: 25px;
+    color: #E0E1DD;
+    border-color: #0D1B2A;
+    background-color:#415A77;
+    box-shadow: 2px 1px 2px 1px #0D1B2A;
+}
+.btn-primary {
+    margin: 40px;
+    padding: 15px;
+    color: #E0E1DD;
+    border-radius: 10px;
+    background-color: #415A77;
+}
+
+
+.col {
+    margin: 50px;
+    padding: 40px;
+    width: 650px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.tabla-preg {
+    background-color: #E0E1DD;
+    /* margin: 20px; */
+    padding: 40px;
+}
