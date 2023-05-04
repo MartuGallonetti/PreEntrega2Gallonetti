@@ -12,6 +12,15 @@
     padding: 0px;
 }
 
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #E0E1DD;
+}
+
+.a-preg{
+    color: #778DA9;
+}
 
 /* Estilos */
 .fondo-main {
@@ -168,6 +177,18 @@ padding: 20px;
     padding: 50px;
 }
 
+.carousel{
+    
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+}
+.img-ilus {
+    width: 500px;
+    height: 600px;
+}
+
 .tatuajes-destacados {
 height: 450px;
 }
@@ -179,8 +200,16 @@ height: 450px;
     color: #E0E1DD;
     border-color: #0D1B2A;
     background-color:#415A77;
-    /* box-shadow: 2px 1px 2px 1px #0D1B2A; */
+    padding: 5px;
+    border-radius: 5px;
 }
+
+.boton:hover{
+    color:#0D1B2A;
+    border-radius: 100px;
+}
+
+
 .btn-primary {
     margin: 40px;
     padding: 15px;
@@ -190,15 +219,6 @@ height: 450px;
 }
 
 
-.col {
-    margin: 50px;
-    padding: 40px;
-    width: 650px;
-    height: 650px;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
 
 .tabla-preg {
     background-color: #E0E1DD;
@@ -206,8 +226,3 @@ height: 450px;
 }
 
 /* contacto */
-.mb-3 {
-    margin: 50px;
-    padding: 70px;
-    
-}
