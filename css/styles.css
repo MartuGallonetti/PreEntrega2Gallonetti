@@ -25,9 +25,12 @@ a {
   padding: 20px;
 }
 
+.logo-florsi {
+  height: 20px;
+}
+
 .footer {
   background-color: #0D1B2A;
-  /* margin: 10px; */
   padding: 5px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -50,14 +53,13 @@ a {
   background-color: #E0E1DD;
 }
 
-.titulo-principal {
+.encabezado {
   text-align: center;
   padding: 40px;
   font-family: "Montserrat", sans-serif;
   color: #415A77;
 }
 
-/* texto  */
 .introduccion {
   text-align: center;
   margin-bottom: 5rem;
@@ -74,12 +76,7 @@ a {
   align-items: center;
   flex-direction: column;
 }
-
-.tatuajes-destacados {
-  height: 450px;
-}
-
-.boton {
+.principales-img_boton {
   margin: 25px;
   color: #E0E1DD;
   border-color: #0D1B2A;
@@ -87,10 +84,17 @@ a {
   padding: 5px;
   border-radius: 5px;
 }
-
-.boton:hover {
+.principales-img_boton:hover {
   color: #0D1B2A;
   border-radius: 100px;
+}
+
+.tatuajes-destacados {
+  height: 450px;
+}
+
+h1 {
+  color: #E0E1DD;
 }
 
 .btn-primary {
@@ -103,7 +107,6 @@ a {
 
 .titulo-gal {
   padding: 20px;
-  margin: 5px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #415A77;
