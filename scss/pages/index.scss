@@ -1,14 +1,14 @@
+@import "../variables";
+@import "../mixins";
 .fondo-main {
     background-color: $color1;
 }
 
-.titulo-principal {
-    text-align: center;
-    padding: 40px;
-    font-family:'Montserrat', sans-serif;
-    color: $color3;
+.encabezado{
+    @include titulos
 }
-/* texto  */
+
+
 .introduccion {
     text-align: center;
     margin-bottom: 5rem;
@@ -24,26 +24,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    &boton {
+        margin: 25px;
+        color: $color1;
+        border-color: $color5;
+        background-color: $color3;
+        padding: 5px;
+        border-radius: 5px;
     
+        &:hover {
+            color:$color5;
+            border-radius: 100px;
+        }
+    }
+
 }
 
 .tatuajes-destacados {
     height: 450px;
 }
 
-.boton {
-    margin: 25px;
-    color: $color1;
-    border-color: $color5;
-    background-color: $color3;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.boton:hover{
-    color:$color5;
-    border-radius: 100px;
-}
 
 h1 {
     color: #E0E1DD;
